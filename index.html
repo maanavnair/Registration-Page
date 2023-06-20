@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="heading">
+                <h2>LOGO</h2>
+            </div>
+            <div class="navigation">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+                <button id="form-btn" class="btn" onclick="page()">Login</button>
+            </div>
+        </div>
+        <div class="hero">
+            <div class="form-box" id="form">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button class="toggle-btn" onclick="login()">Login</button>
+                    <button class="toggle-btn" onclick="register()">Sign Up</button>
+                </div>
+                <form id="login"  class="input-group">
+                    <input type="text" class="input-field" placeholder="User ID">
+                    <input type="password" class="input-field" placeholder="Enter Password">
+                    <input type="checkbox" class="check-box"><span>Remember Password</span>
+                    <button type="submit" class="submit-btn">Login</button>
+                </form>
+
+                <form  id="register" class="input-group">
+                    <input type="text" class="input-field" placeholder="User ID">
+                    <input type="email" class="input-field" placeholder="E-mail">
+                    <input type="password" class="input-field" placeholder="Enter Password">
+                    <input type="checkbox" class="check-box"><span>I agree to the terms and conditions</span>
+                    <button type="submit" class="submit-btn">Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
